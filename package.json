@@ -1,0 +1,32 @@
+{
+  "name": "t4cli",
+  "version": "1.0.0",
+  "description": "CLI for Talkium v4 (v4tlkum)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alt-kas/t4cli.git"
+  },
+  "keywords": [
+    "cli",
+    "talkium"
+  ],
+  "author": "@alt-kas, @dev-kas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alt-kas/t4cli/issues"
+  },
+  "homepage": "https://github.com/alt-kas/t4cli#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "readline-sync": "^1.4.10",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
